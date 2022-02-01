@@ -55,7 +55,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/bin/mdm_helper:$(TARGET_COPY_OUT_VENDOR)/bin/mdm_helper \
     vendor/samsung/starqlte/proprietary/vendor/bin/mdm_helper_proxy:$(TARGET_COPY_OUT_VENDOR)/bin/mdm_helper_proxy \
-    vendor/samsung/starqlte/proprietary/vendor/lib64/libmdmimgload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmimgload.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib64/libmdmimgload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmimgload.so
 
 # Qualcomm Display Utils (Missing System_Ext)
 PRODUCT_COPY_FILES += \
@@ -206,12 +206,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/samsung/starqlte/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/starqlte/proprietary/vendor/etc/nfc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn82_rfreg.bin \
-    vendor/samsung/starqlte/proprietary/vendor/firmware/nfc/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn82_firmware.bin \
+    vendor/samsung/starqlte/proprietary/vendor/firmware/nfc/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn82_firmware.bin
 
 # WFD
 PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
-    vendor/samsung/starqlte/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so
 
 # WiFi
 PRODUCT_COPY_FILES += \
@@ -222,7 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.1.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@2.0.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.hostapd@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.hostapd@2.1.so \
-    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi.supplicant@2.0.so
 
 # Radio - IMS
 PRODUCT_COPY_FILES += \
@@ -251,7 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so
 
 # ADSP Modules
 PRODUCT_COPY_FILES += \
@@ -265,7 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvdsp_skel.so \
     vendor/samsung/starqlte/proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhexagon_nn_skel.so \
     vendor/samsung/starqlte/proprietary/vendor/lib/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_device_mode_skel.so \
-    vendor/samsung/starqlte/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -344,7 +344,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.samsung.hardware.audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.audio@1.0.so
 
 # Display
 PRODUCT_COPY_FILES += \
@@ -364,7 +364,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
-    vendor/samsung/starqlte/proprietary/vendor/lib64/unnhal-acc-hvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hvx.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib64/unnhal-acc-hvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hvx.so
 
 # Display calibration data
 PRODUCT_COPY_FILES += \
@@ -384,10 +384,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.2.so \
-    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
+    vendor/samsung/starqlte/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so
 
 # DRM
-PRODUCT_COPY_FILES += \
+# PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
@@ -1089,7 +1089,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starqlte/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlib.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
-
     vendor/samsung/starqlte/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/samsung/starqlte/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
